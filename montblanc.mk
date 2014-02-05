@@ -60,13 +60,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    lights.montblanc
 
+#power module
+PRODUCT_PACKAGES += \
+   power.montblanc
+
 # Misc
 PRODUCT_PACKAGES += \
    com.android.future.usb.accessory
 
 #Fmradio
-#PRODUCT_PACKAGES += \
-#   FmRadioReceiver
+PRODUCT_PACKAGES += \
+   FmRadioReceiver
 
 # We have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
